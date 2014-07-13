@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/TaskOne.css">
+		<title>Simple form</title>
+	</head>
+	<body>
+		<div id="Container">
+			<h2>Enter the system</h2>
+			<p>It is necessary to login in Your account in order to sign in for the course.</p>
+	
+			<div id="FirstForm">
+				<form action="register.php" method="POST" class="register">
+		
+					<h5>ARE YOU NEW? <span>REGISTER</span></h5>
+					<input type="text" name="username"
+					placeholder="User name">
+					<br />
+			
+					<input type="text" name="email"
+					placeholder="Email">
+					<br />
+			
+					<input type="password" name="password"
+					placeholder="Password">
+					<br />
+	
+					<input type="password" name="confirm"
+					placeholder="Confirm password">
+					<br />
+			
+					<button id="Reg">Register</button>
+		
+				</form>
+			</div>
+			
+			<div id="SecondForm">
+				<form action="login.php" method="POST" class="login">
+		
+				<h5>ALREADY A STUDENT? LOGIN</h5>
+				<input type="text" name="username"
+				placeholder="User name">
+				<br />
+			
+				<input type="password" name="password"
+				placeholder="Password">
+				<br />
+				<div><input type="checkbox" name="check" id="check">
+				<label for="check">Remember me?</label></div>
+				<button id="Login">Login</button>
+				<a href="">Forgot Password</a>
+				
+			</form>
+			</div>
+		</div>
+	</body>
+</html>

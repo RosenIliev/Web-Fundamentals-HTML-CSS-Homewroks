@@ -1,0 +1,54 @@
+.left {
+float:left;
+}
+.right {
+float.right;
+}
+fieldset {
+background-color:pink;
+border:none; 
+}
+select { 
+width:165px;
+margin-right:10px;
+margin-left:10px;
+}
+label { 
+display:block;
+font-style:italic;
+font-size:12px;
+margin-left:10px;
+}
+#container {
+max-width:400px;
+height:auto;
+}
+h1 { 
+font-style:italic;
+font-weight:bolder;
+text-align:center;
+}
+input { 
+width: 165px;
+margin-right:10px;
+margin-left:10px;
+}
+.start-end-time {
+width:80px;
+margin-left:0px;
+margin-right:3px;
+float:left;
+}
+.numbers{
+width:45px;
+float:left;
+margin-right:0px;
+}
+#prefer-directs {
+	float: right;
+	margin-left: 120px;
+}
+#prefer-label{
+	float: right;
+	
+}

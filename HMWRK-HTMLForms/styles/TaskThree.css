@@ -1,0 +1,15 @@
+#logo {
+width:320px;
+height:100px;
+margin-left:0px;
+}
+#button { 
+width:30px;
+}
+#container {
+	max-width: 600px;
+	height: auto;
+}
+#searchbox { 
+width:20%
+}

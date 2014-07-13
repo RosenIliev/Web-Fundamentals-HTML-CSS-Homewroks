@@ -1,0 +1,19 @@
+
+
+table , table th , table td {
+	border:solid;
+	border-color:black;
+	border-width:1px;
+}
+	
+ table th, table td {
+	padding:5px;
+}
+	
+table tfoot {
+	text-align:right;
+}
+p {
+    margin:0px;
+    font-size:x-large;
+}

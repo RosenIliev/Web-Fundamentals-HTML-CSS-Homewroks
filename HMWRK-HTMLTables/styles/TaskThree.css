@@ -1,0 +1,11 @@
+table , table th , table td {
+	border:solid;
+	border-color:black;
+	border-width:1px;
+}
+ table td , table th {
+        padding:10px;
+    }
+table th { 
+font-size:60px;
+}

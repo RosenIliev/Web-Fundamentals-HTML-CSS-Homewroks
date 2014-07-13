@@ -1,0 +1,77 @@
+body {
+background-color: #EEEEEE;
+} 
+
+#Container
+{
+max-width: 600px;
+height:auto;
+background-color: #EEEEEE;
+font-family: 'Tahoma';
+}
+
+#FirstForm {
+width:280px;
+height:250px;
+float:left;
+padding-left:20px;
+}
+#SecondForm {
+width:280px;
+height:235px;
+float:left;
+padding-left:20px;
+background-color:#234467;
+color:white;
+}
+h2 { 
+color: #12273A;
+padding-top:10px;
+padding-left:10px;
+}
+p { 
+color: #8D8D8D;
+padding-left: 10px;
+padding-top: 10px;
+}
+form input { 
+margin-bottom: 10px;
+width:90%;
+height:20px;
+}
+#Reg {
+width:40%;
+float:right;
+margin-right:25px;
+height:30px;
+border:2px solid #234467;
+color: #234467;
+background-color: #EEEEEE;
+}
+label {
+vertical-align: top;
+font-size: 11px;
+}
+#check {
+float: left;
+margin-left: -5px;
+width:10%;
+}
+#Login { 
+float: right;
+width: 30%;
+margin-right: 25px;
+height:30px;
+border:2px solid #d08916;
+color:white;
+background-color: #234467;
+margin-top:-20px;
+}
+a { 
+clear:both;
+font-size:11px;
+text-decoration:underline;
+color:white;
+float:right;
+padding-right:25px;
+}

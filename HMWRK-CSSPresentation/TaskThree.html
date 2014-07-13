@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Form styling</title>
+		<link rel="stylesheet" type="text/css" href="styles/TaskThree.css">	
+	</head>
+	<body>
+		<div id="wrapper">
+			<form>
+				<fieldset>
+					<h3>Step 1: Your details</h3>
+					<div class="info"><label for="name">Name</label>
+					<input type="text" name="name" placeholder="First and last name"></div>
+					<div class="info"><label for="email">Email</label>
+					<input type="email" name="email" placeholder="example@domain.com"></div>
+					<div class="info"><label for="phone">Phone</label>
+					<input type="tel" name="phone" placeholder="eg. +4475000000000"></div>
+				</fieldset>
+				<fieldset>
+					<h3>Step 2: Delivery adress</h3>
+					<div class="area"><label for="textarea" id="top">Adress</label>
+					<textarea name="textarea"></textarea></div>
+					<div class="info"><label for="postcode">Post code</label>
+					<input type="tel" name="postcode"></div>
+					<div class="info"><label for="country">Country</label>
+					<input type="text" name="country"></div>
+				</fieldset>
+				<fieldset>
+					<h3>Step 3: Card details</h3>
+					<div class="creditcards">
+						<div id="classtype">Card type</div>
+						<input type="radio" name="visa">
+						<label for="visa" id="visa" class="cardlabel">VISA</label>
+						<input type="radio" name="amex">
+						<label for="amex" id="amex" class="cardlabel">AmEx</label>
+						<input type="radio" name="mastercard">
+						<label for="mastercard" id="mastercard" class="cardlabel">Mastercard</label>
+					</div>
+					<div class="info"><label for="cardnumber">Card number</label>
+					<input type="tel" name="cardnumber"></div>
+					<div class="info"><label for="securitycode">Security code</label>
+					<input type="password" name="securitycode"></div>
+					<div class="info"><label for="cardname">Name on card</label>
+					<input type="text" name="cardname" placeholder="exact name as on the card"></div>
+				</fieldset>
+				<span id="submit"><input type="submit" value="BUY IT!"></span>
+			</form>
+		</div>
+	</body>
+</html>

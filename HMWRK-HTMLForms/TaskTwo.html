@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/TaskTwo.css">
+		<title>Tickets</title>
+	</head>
+	<body>
+	<div id="container">
+		<form method="post" id="flight-order">
+			<fieldset name="flight-order" form="flight-order">
+			<h1>FLIGHT ORDER</h1>
+			<div class="left"><label for="From">From</label>
+				<select name="From" id="From">
+				<option value="empty">enter a city</option>
+				<option value="BS">Burgas</option>
+				<option value="SA">Sofia</option>
+				<option value="VN">Varna</option>
+			</select></div>
+			<div class="right"><label for="To">To</label>
+				<select name="To" id="To">
+				<option value="empty">enter a city</option>
+				<option value="BS">Burgas</option>
+				<option value="SA">Sofia</option>
+				<option value="VN">Varna</option>
+			</select></div>
+			<div><label for="checkbox" id="prefer-label">Prefer directs</label>
+				<input type="checkbox" name="checkbox" id="prefer-directs"></div>
+			<div class="left"><label for="departure">Departure Date</label>
+				<input type="date" id="departure" value="2014-06-09" required="true" /></div>
+			<div class="right"><label for="startInterval">Time Interval</label>
+				<input type="time" id="startInterval" value="00:20" required="true" class="start-end-time"/>
+				<input type="time" id="endInterval" value="05:00" required="true" class="start-end-time"/></div>
+			<div class="left"><label for="return">Return Date</label>
+				<input type="date" id="return" value="2014-06-13" required="true" /></div>
+			<div class="right"><label for="startInterval">Time Interval</label>
+				<input type="time" id="startInterval" value="00:20" required="true" class="start-end-time" />
+				<input type="time" id="endInterval" value="05:00" required="true" class="start-end-time" /></div>
+			<div class="left"><label for="12+">12+</label>
+				<input type="number" max="12" min="0" id="12+" class="numbers"></div>
+			<div class="left"><label for="2-12">2-12</label>
+				<input type="number" max="12" min="2" id="2-12" class="numbers"></div>
+			<div class="left"><label for="0-2">0-2</label>
+				<input type="number" max="2" min="0" id="0-2" class="numbers"></div>
+			<div class="right"><label for="Class">Choose class</label>
+				<select name="Class" id="Class">
+				<option value="Economy">Economy</option>
+				<option value="Business">Business</option>
+			</select>
+			</div>
+			<input type="submit" value="Search">
+			</fieldset>
+		</form>
+	</div>
+	</body>
+</html>

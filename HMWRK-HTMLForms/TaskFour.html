@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/TaskFour.css">
+		<title>Fakebook</title>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div id="registered">
+					<span>fakebook</span>&reg;</span>
+				</div>
+				<h2>Registration</h2>
+				<h4>It is safe and it will always be!</h4>
+			</div>
+			<div id="form">
+				<form method="post">
+			
+				<div id="leftfieldset">
+					<fieldset id="left">
+						<legend>None-Important Information</legend>
+						<input type="text" name="Firstname" id="Firstname" class="non-important"
+						placeholder="First Name">
+						<input type="text" name="Lastname" id="Lastname" class="non-important"
+						placeholder="Last Name">
+						<input type="email" name="Email" id="Email" class="non-important"
+						placeholder="Your Email">
+						<input type="tel" name="Number" id="Number" class="non-important"
+						placeholder="Phone Number">
+						<input type="password" name="Password" id="Password" class="non-important"
+						placeholder="Your Password">
+						<input type="text" name="Website" id="Website" class="non-important"
+						placeholder="Website">
+						<label for="birthday">Birthday</label> 
+						<input type="datetime-local" id="birthday" name="birthday">
+						<div id="gender">
+							<input name="gender" type="radio" id="gm" value="male" />
+							<label class="inline" for="gm">Male</label>
+							<input name="gender" type="radio" id="gf" value="female" />
+							<label class="inline" for="gf">Female</label>
+							<input name="gender" type="radio" id="gu" value="unknown  />
+							<label class="inline" for="gu">Other</label>
+						</div>
+					</fieldset>
+				</div>
+			
+				<div id="rightfieldset">
+					
+					<fieldset id="right">
+						<legend>Important information *required</legend>
+						<select name="country" id="country" required>
+							<option value="DF">Country</option>
+							<option value="BG">Bulgaria</option>
+							<option value="ALB">Albania</option>
+							<option value="NAR">Narnia</option>
+							<option value="BAN">Banania</option>
+						</select>
+						<input type="text" name="Village" id="Village" required
+						placeholder="Village">
+						<input type="text" name="District" id="District" required
+						placeholder="District">
+						<input type="text" name="Street" id="Street" required
+						placeholder="Street">
+						<input type="text" name="Number" id="Number" required
+						placeholder="Nr">
+						<input type="text" name="Floor" id="Floor" required
+						placeholder="Floor">
+						<input type="text" name="Apartament" id="Apartament" required
+						placeholder="Ap Nr">
+						<br>
+						<label for="color" class="label">Door Color</label>
+						<input type="color" name="color" id="color" value="#ff00ff" required>
+						<input type="text" name"water" id="water" value="Water Meter Nr" required>
+						<select name="panties" id="panties" required="true">
+							<option value"DF">Aunt Panties' Size</option>
+							<option value="XL">XL</option>
+							<option value="XXL">XL</option>
+							<option value="XXXL">XL</option>
+							<option value="E">ENORMOUS</option>
+						</select>
+						<label for="personal" class="label">More Personal Information</label>
+						<textarea name="personal-info" placeholder="Give us more information! ! !" required></textarea>
+					
+					</fieldset>
+				</div>
+			
+					<div id="buttons">
+						<input type="reset" value="Clear Form" id="clear">
+						<input type="submit" value="Register" id="submit">
+				</div>
+				</form>
+		</div>
+	</div>
+	</body>
+</html>
+		
+				
+					

@@ -1,0 +1,106 @@
+#container {
+max-width:850px;
+height:500px;
+background-color:#3B5997;
+color:white;
+}
+span { 
+font-weight:bolder;
+font-size:70px;
+text-align:center;
+}
+#registered {
+text-align:center;
+}
+h2 , h4 {
+text-align:center;
+margin-top:0px;
+}
+legend { 
+text-align:center;
+}
+#leftfieldset {
+width:320px;
+height:auto;
+float:left;
+}
+#rightfieldset {
+width:450px;
+height:auto;
+float:left;
+margin-left:30px;
+}
+#left { 
+width:300px;
+height:218px;
+border-radius:5px;
+margin-left:10px;
+}
+#right {
+width:430px;
+height:auto;
+float:left;
+border-radius:5px;
+}
+.non-important {
+width:130px;
+margin:5px;
+display:inline;
+border-radius:5px;
+}
+#birthday {
+border-radius:5px;
+}
+#Village , #District , #Street {
+border-radius: 5px;
+margin:5px;
+}
+#buttons {
+width:830px;
+float: left;
+margin-top: 20px;
+}
+#clear {
+width:330px;
+height:60px;
+margin-left:12px;
+float:left;
+color:#3B5997;
+font-size:15px;
+border-radius:5px;
+}
+#submit {
+margin-left:20px;
+width:465px;
+height:60px;
+float:left;
+color:#3B5997;
+font-size:30px;
+border-radius:5px;
+}
+#country {
+border-radius:5px;
+margin:5px;
+}
+#Number , #Floor , #Apartament {
+width:60px;
+margin:5px;
+border-radius:5px;
+}
+.label { 
+display:block;
+}
+#water {
+width:110px;
+border-radius:5px;
+}
+#color , #panties {
+margin:2px;
+width:145px;
+border-radius:5px;
+}
+textarea { 
+width:440px;
+height:50px;
+border-radius:5px;
+}
